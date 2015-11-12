@@ -16,7 +16,7 @@
 				<div class="row">
 					<h1 class="media-heading">App Café</h1>
 					<div class="input-group">
-			      <input id="texto" type="text" class="form-control" placeholder="Nombre del café, ..">
+			      <input id="texto" type="text" class="form-control" onkeyup="filter(this)" placeholder="Search...">
 			      <span class="input-group-btn">
 			        <button id="buscar" class="btn btn-default" type="button">Buscar</button>
 			      </span>
@@ -28,52 +28,8 @@
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12">	
-						<ul>
-							<li class="lima">
-								<h3>Cafetería Ágora 
-									<i class="fa fa-map-marker">210ft</i>
-								</h3>
-								<img src="image1.png" alt="taza de cafe">							
-								<h4>$ Lima, Cafe</h4>
-								
-								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
-							</li>
-							<li>
-								<h3>Cafetería Ágora
-									<i class="fa fa-map-marker">50ft</i>
-								</h3>		
-								<img src="image1.png" alt="taza de cafe">								<h4>$ Lima, Cafe</h4>
-								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
-							</li>
-							<li>
-								<h3>Cafetería El Pasaje
-									<i class="fa fa-map-marker">2250ft</i>
-								</h3>
-									<!-- <div class="photo-restaurant">	
-										<img src="img/coffe.jpg" alt="taza de cafe">
-									</div> -->								
-								<h4>$ Lima, Cafe</h4>
-								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
-							</li>
-							<li>
-								<h3>Cafetería Época</h3>
-									<!-- <div class="photo-restaurant">	
-										<img src="img/coffe.jpg" alt="taza de cafe">
-									</div> -->								
-								<h4>$ Lima, Cafe</h4>
-								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
-							</li>
-							<li class="lima">
-								<h3>Cafetería La Esquinita</h3>
-									<!-- <div class="photo-restaurant">	
-										<img src="img/coffe.jpg" alt="taza de cafe">
-									</div> -->								
-								<h4>$ Lima, Cafe</h4>
-								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
-							</li>
-						</ul>
-					</div>
+					<ul class="cafeterias">
+					</ul>
 				</div>
 			</div>
 		</section>
