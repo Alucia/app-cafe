@@ -9,7 +9,6 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 	</head>
 	<body>
 		<header>
@@ -17,7 +16,7 @@
 				<div class="row">
 					<h1 class="media-heading">App Café</h1>
 					<div class="input-group">
-			      <input type="text" class="form-control" placeholder="Nombre del café, ..">
+			      <input id="texto" type="text" class="form-control" placeholder="Nombre del café, ..">
 			      <span class="input-group-btn">
 			        <button id="buscar" class="btn btn-default" type="button">Buscar</button>
 			      </span>
@@ -31,7 +30,7 @@
 				<div class="row">
 					<div class="col-xs-12">	
 						<ul>
-							<li>
+							<li class="lima">
 								<h3>Cafetería Ágora 
 									<i class="fa fa-map-marker">210ft</i>
 								</h3>
@@ -65,7 +64,7 @@
 								<h4>$ Lima, Cafe</h4>
 								<p>Small plates, salads & sandwiches in an intimate setting with 12 indoor seats plus patio  seating.</p>
 							</li>
-							<li>
+							<li class="lima">
 								<h3>Cafetería La Esquinita</h3>
 									<!-- <div class="photo-restaurant">	
 										<img src="img/coffe.jpg" alt="taza de cafe">
@@ -86,6 +85,7 @@
 			</div>
 		</footer>
 		<script src="js/jquery.min.js"></script>
-		<script src ="js/bootstrap.min.js"></script>		
+		<script src ="js/bootstrap.min.js"></script>	
+		<script src="js/filter.js"></script>	
 	</body>
 </html>
