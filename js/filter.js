@@ -115,23 +115,7 @@ $(document).ready(function(){
 		}
 
 	});
-	
-	//ordenando los item
-	// $('#toggle').click(function(){
-	
-	// 	for (var menor = 0; menor < cafeterias.length-1; menor++) {     
-	//     for (var mayor = menor+1; mayor < cafeterias.length-1; mayor++) {
 
- //        if (cafeterias[menor]>cafeterias[mayor]){
- //        	console.log('cafeteria.distancia');
- //          temp =cafeterias[menor];
- //          cafeterias[menor]=cafeterias[mayor];
- //          cafeterias[mayor]=temp;         
- //        }
-	//     }
- //    };
-
-	// });
 });
 
 function pintarCafeterias(cafeteria) {
